@@ -1,6 +1,6 @@
-.{ .name = .easy_input, .version = "0.0.2", .minimum_zig_version = "0.16.0", .paths = .{
+.{ .name = .easy_input, .version = "0.0.3", .minimum_zig_version = "0.16.0", .paths = .{
     "build.zig",
     "build.zig.zon",
-    "src/EasyInput.zig",
+    "src/easy_input.zig",
     "README.md",
 }, .fingerprint = 0x27a14ec6afa2e666 }
