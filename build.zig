@@ -7,7 +7,7 @@ pub fn build(b: *std.Build) void {
     const pack_mod = b.addModule("easy_input", .{
         .target = target,
         .optimize = optimize,
-        .root_source_file = b.path("src/EasyInput.zig"),
+        .root_source_file = b.path("src/easy_input.zig"),
     });
 
     const main_tests = b.addTest(.{
